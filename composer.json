@@ -1,0 +1,25 @@
+{
+    "name": "fiisoft/entity-sorter",
+    "type": "library",
+    "description": "Library to sort collections of entities.",
+    "keywords": ["entity", "sorting"],
+    "homepage": "https://github.com/fiiSoft/fiisoft-entity-sorter",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "FiiSoft",
+            "email": "fiisoft.production@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "FiiSoft\\EntitySorter\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.6.0",
+        "fiisoft/entity-id": "^2.1.0"
+    }
+}
